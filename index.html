@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STACKED Restaurants Instagram Feed</title>
+</head>
+<body>
+<div id="instafeed"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instafeed@2.0.0/lib/instafeed.min.js"></script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        clientId: '28a74b5099da4b7ab47b383a347d349c',
+        accessToken: '3557323914.1677ed0.5c538dcc87544064906291ab0d4f2a72',
+        userId: '3557323914',
+    });
+    feed.run();
+</script>
+</body>
+</html>
